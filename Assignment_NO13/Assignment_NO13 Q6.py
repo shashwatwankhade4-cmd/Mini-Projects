@@ -1,0 +1,16 @@
+import numpy as np
+
+v1 = np.array([2,4,6,8])
+v2 = np.array([1,3,5,7])
+
+print("Addition:")
+print(v1 + v2)
+
+print("\nSubtraction:")
+print(v1 - v2)
+
+print("\nElement-wise Multiplication:")
+print(v1 * v2)
+
+print("\nDot Product:")
+print(np.dot(v1, v2))
